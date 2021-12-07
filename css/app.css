@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #73aedb;
+  text-align: center;
+  color: #fcf064;
+  font-size: 3em;
+  height: 500px;
+    background: rgb(252,70,107);
+  background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgb(255,102,102);
+  background: linear-gradient(90deg, rgba(255,102,102,1) 0%, rgba(255,195,63,1) 62%, rgba(255,247,128,1) 100%);
+  /* background-color: #0d6efd; */
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+h1 {
+  color: black;
+  margin-bottom: 150px;
+}
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+.ending-form label{
+  font-weight: bold;
+}
+.ending-form input,label {
+  height: 40px;
+  width: 300px;
+}
+.hero-image {
+   background-color: #cccccc; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.hero-image1 {
+   background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.btn {
+  /* width: 100px;
+  height: 40px; */
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  /* font-size: 0.8em; */
+  cursor: pointer;
+}
+.btn-start {
+  background-color: #ffc107;
+  border: solid 1px black;
+}
+
+.btn-restart{
+  background-color: #ffc107;
+  border: solid 1px black;
+}
+.btn-yes {
+  background-color: #28a745;
+}
+
+.btn-no {
+  background-color: #ff0018;
+}
+
+.btn-add-guess {
+  background-color: #fd7e14;
+  width: 250px;
+  color: white;
+}
